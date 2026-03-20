@@ -511,7 +511,7 @@ classTr();
 */
 console.log("Exercise 27");
 const halfTree = (n) => {
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i <= n; i++) {
     console.log("*".repeat(i));
   }
 };
