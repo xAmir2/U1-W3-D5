@@ -515,7 +515,7 @@ const halfTree = (n) => {
     console.log("*".repeat(i));
   }
 };
-halfTree(6);
+halfTree(20);
 
 /* ESERCIZIO 28
   Crea una funzione chiamata "tree" che riceve un numero come parametro e costruisce un albero di "*" (asterischi) dell'altezza fornita.
@@ -534,3 +534,11 @@ halfTree(6);
 */
 
 /* Questo array viene usato per gli esercizi. Non modificarlo. */
+console.log("Exercise 29");
+const isItPrime = (num) => {
+  for (let i = 2, s = Math.sqrt(num); i <= s; i++) {
+    if (num % i === 0) return false;
+  }
+  return num > 1;
+};
+console.log(isItPrime(11));
